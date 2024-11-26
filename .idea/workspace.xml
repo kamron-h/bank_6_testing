@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6fe609db-e032-4a7c-8783-374c552d56e4" name="Changes" comment="Updated to include BVA Testing and JaCoCo coverage">
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jacoco_maven_plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/BankAccount$Status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/BankAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/BankAccount.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/BankAccountEPTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/BankAccountEPTest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/BankAccountTestBVA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/BankAccountTestBVA.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/Main.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/account.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/account.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/default/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/BankAccount$Status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/BankAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/BankAccount.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/BankAccountEPTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/BankAccountEPTest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/BankAccountTestBVA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/BankAccountTestBVA.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/Main.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/default/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport2/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/BankAccount$Status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/BankAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/BankAccount.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/BankAccountEPTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/BankAccountEPTest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/BankAccountTestBVA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/BankAccountTestBVA.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/Main.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/default/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport3/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/BankAccount$Status.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/BankAccount.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/BankAccount.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/BankAccountEPTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/BankAccountEPTest.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/BankAccountTestBVA.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/BankAccountTestBVA.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/Main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/Main.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/default/index.source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/branchfc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/branchnc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/branchpc.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/bundle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/class.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/down.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/greenbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/group.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/method.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/package.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/redbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/report.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/report.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/session.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/sort.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/source.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-resources/up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JaCoCo_Reports/htmlReport4/jacoco-sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bank_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAccountEPTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAccountManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAccountTestBVA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/account.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/htmlReport4" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaCoverageOptionsProvider">
+    <option name="myRunnerId" value="jacoco" />
+    <option name="myTestModulesCoverage" value="true" />
+    <option name="myTestTracking" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2oG6c47dPvMygEgl5mT63TDA4W6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BankAccount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.BankAccountEPTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;TestNG.BankAccountTest (1).executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.BankAccountTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.BankAccountTestBVA.executor&quot;: &quot;Coverage&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kamronhopkins/IdeaProjects/bank_6&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/kamronhopkins/IdeaProjects/bank_6/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;coverage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/JaCoCo_Reports" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.BankAccountEPTest">
+    <configuration name="BankAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankAccount" />
+      <module name="bank_6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountEPTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bank_6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountEPTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bank_6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bank_6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountTest.BankAccountTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAccountTestBVA" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="bank_6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BankAccountTestBVA" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.BankAccountEPTest" />
+        <item itemvalue="TestNG.BankAccountTestBVA" />
+        <item itemvalue="TestNG.BankAccountTest (1)" />
+        <item itemvalue="Application.BankAccount" />
+        <item itemvalue="TestNG.BankAccountTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fe609db-e032-4a7c-8783-374c552d56e4" name="Changes" comment="" />
+      <created>1730483642889</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730483642889</updated>
+      <workItem from="1730483644072" duration="789000" />
+      <workItem from="1731514088589" duration="800000" />
+      <workItem from="1731866219892" duration="15359000" />
+      <workItem from="1732115943338" duration="2547000" />
+      <workItem from="1732585962260" duration="939000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1731514167155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731514167156</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit 3">
+      <option name="closed" value="true" />
+      <created>1731867398440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731867398440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Updated Main.java to  BankAccount as startup program">
+      <option name="closed" value="true" />
+      <created>1731867878150</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731867878151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Initial Commit 3" />
+    <MESSAGE value="Updated Main.java to  BankAccount as startup program" />
+    <MESSAGE value="Updated to include BVA Testing and JaCoCo coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to include BVA Testing and JaCoCo coverage" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bank_6$BankAccountEPTest.exec" NAME="BankAccountEPTest Coverage Results" MODIFIED="1731948087611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/bank_6$BankAccountTestBVA.exec" NAME="BankAccountTestBVA Coverage Results" MODIFIED="1731948027186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="jacoco" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/bank_6$BankAccountTestBVA.ic" NAME="BankAccountTestBVA Coverage Results" MODIFIED="1731946428326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>

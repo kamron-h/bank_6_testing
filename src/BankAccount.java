@@ -11,6 +11,12 @@ public class BankAccount {
     private static Map<Integer, BankAccount> accounts = new HashMap<>();
     private static int nextAccountNumber = 1; // Auto-incrementing account numbers
 
+    // Reset method for testing purposes
+    public static void resetState() {
+        accounts.clear();
+        nextAccountNumber = 1;
+    }
+
     // Enum for operation statuses
     public enum Status {
         SUCCESS,
